@@ -1,0 +1,14 @@
+.practice-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+}
+
+@media (max-width: 768px) {
+  .practice-card {
+    padding: var(--spacing-lg);
+  }
+}

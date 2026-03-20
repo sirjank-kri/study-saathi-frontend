@@ -1,0 +1,27 @@
+.required-mark {
+  color: #dc2626;
+  margin-left: 2px;
+}
+
+.form-control-error {
+  border-color: #dc2626;
+}
+
+.form-control-error:focus {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}
+
+.form-error {
+  color: #dc2626;
+  font-size: var(--font-size-sm);
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.form-error::before {
+  content: '⚠';
+  font-size: 14px;
+}
