@@ -20,7 +20,6 @@ import Settings from './pages/Settings';
 // Styles
 import './styles/variables.css';
 import './styles/global.css';
-import './styles/loader.css';
 
 // Layout component for pages with sidebar
 const AppLayout = ({ children }) => {
